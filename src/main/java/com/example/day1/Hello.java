@@ -11,12 +11,12 @@ public class Hello {
     }
 
     @GetMapping("/greetings")
-    public String greetings() {
+    public String Greetings() {
         return "Good afternoon. How are you?";
     }
 
     @GetMapping("/reply")
-    public String reply() {
+    public String Reply() {
         return "I'm fine, thank you.";
     }
 
